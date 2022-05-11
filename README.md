@@ -26,7 +26,7 @@
    ```
 5. Build the Project.
    ```sh
-  Right Cick to the project > Run As > 4 Maven Build > Type 'clean install' > wait to finish
+   Right Cick to the project > Run As > 4 Maven Build > Type 'clean install' > wait to finish
    ```
 6. Run the project.
    ```sh
