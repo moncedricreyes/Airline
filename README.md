@@ -4,10 +4,13 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Airline Project will run on default port of tomcat PORT 8080.
+* Airline Project will run on default port of tomcat PORT 8080.
+* Import file to POSTMAN for reference
+   - Flight.postman_collection.json
+* Open Sequence Diagram 
+   - sequence diagram.png
 
-
-### Installation & Run The Project
+### Installation & Run The Project 
 
 1. Clone the repo
    ```sh
@@ -23,7 +26,7 @@ Airline Project will run on default port of tomcat PORT 8080.
    ```
 5. Build the Project.
    ```sh
-   Right Cick to the project > Run As > 4 Maven Build > Type 'clean install' > wait to finish
+  Right Cick to the project > Run As > 4 Maven Build > Type 'clean install' > wait to finish
    ```
 6. Run the project.
    ```sh
@@ -36,6 +39,7 @@ Airline Project will run on default port of tomcat PORT 8080.
 
 ## API List
 
+
 1. GET /flights
   ```sh
   Get All Flight
@@ -47,5 +51,13 @@ Airline Project will run on default port of tomcat PORT 8080.
 3. POST /flight
   ```sh
   Add new flight
+  EX. JSON BODY:
+  {
+    "flightNumber": "QF500",
+    "departurePort": "MEL",
+    "arrivalPort": "SYD",
+    "departureTime": "2020-06-10T10:25:23Z",
+    "arrivalTime": "2020-06-10T10:25:23Z"
+  } 
    ```
 
