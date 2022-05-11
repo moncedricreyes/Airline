@@ -1,0 +1,5 @@
+com/mon/airline/model/Flight.class
+com/mon/airline/model/Message.class
+com/mon/airline/AirlineApplication.class
+com/mon/airline/service/FlightService.class
+com/mon/airline/controller/FlightController.class
